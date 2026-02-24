@@ -1,0 +1,96 @@
+body {
+    font-family: Determination;
+    background-color: #c2d7ee;
+    color: #005EFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; 
+} 
+  
+header {
+    background-color:white;
+    height: 105px;
+    box-shadow: 0 2px 4px;
+    position: relative;
+    top: -5px;
+}  
+
+.hyperlink {
+    padding: 4px;
+}
+
+main {
+    padding-top: 5px; 
+} 
+  
+.title {
+    color: black;
+    text-decoration: underline;
+    -webkit-text-fill-color: #005EFF;
+    -webkit-text-stroke-width: 1px;
+}
+  
+#two {
+    font-size: 55px;
+}
+  
+h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 3px;
+}
+
+#welcome {
+    font-size: 25px;
+    border: solid 2px;
+    border-radius: 35px;
+    padding: 5px;
+    max-width: 50%;
+    translate: 50%;
+    background-color: white;
+    letter-spacing: 1px;
+    color: black;
+    -webkit-text-fill-color: #005EFF;
+    -webkit-text-stroke-width: 1px;} 
+  
+.mm1 {
+    width: 136px;
+    height: 154px;
+    padding-bottom: 5px;
+}
+  
+.poke {
+    width: 175px;
+    height: 182px;
+    padding-left: 54px;
+    padding-top: 5px;
+}
+
+.websiteInfo {
+    border-left: ridge 2px;
+    border-left-color: #005EFF;
+    padding: 13px;
+    border-right: ridge 2px;
+    border-right-color: #005EFF;
+    margin: 12px;
+    text-align: left;
+    font-size: 120%;
+    background-color:white;
+    box-shadow: 0 0 12px white;
+}
+
+#rom_button {
+    font-family: Determination;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+    -webkit-text-fill-color: #005EFF;
+    -webkit-text-stroke-width: 75%;
+    border-radius: 25px;
+    border: solid;
+    height: 50px;
+    width: 105px;
+    background-color: white;
+    padding: 3px; 
+}

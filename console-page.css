@@ -1,0 +1,64 @@
+body {
+    font-family: Determination;
+    background-color: #c2d7ee;
+    color: #005EFF;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: white;
+    height: 105px;
+    box-shadow: 0 2px 4px;
+    position: relative;
+    top: -5px;
+    text-align: center;
+}
+
+.hyperlink {
+    padding: 4px;
+}
+
+main {
+
+    padding-top: 5px; 
+}
+ 
+.title {
+    color: black;
+    -webkit-text-fill-color: #005EFF;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+}
+ 
+#two {
+    font-size: 55px; 
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 3px;
+}
+
+#prompt {
+    border-bottom: groove;
+}
+
+#selectionArea, #consoleSelect {
+    position: relative;
+    text-align: center;
+    translate: 11%;
+    color: #003B94;
+    background-color: white;
+    Width: 80%;
+    padding: 12px;
+}
+
+#selectionArea {
+    margin-top: 35px;
+    font-size: 20%;
+    border: double 10px #005EFF;
+    border-radius: 40px;
+}
