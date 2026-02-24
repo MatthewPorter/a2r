@@ -59,7 +59,20 @@ h1 {
     height: 154px;
     padding-bottom: 5px;
 }
-  
+
+.mm1:hover {
+    filter: drop-shadow(-0.5rem 0 0.5rem rgb(44, 86, 255));
+    transition: 0.15s ease-in-out;
+    cursor: none;
+}
+
+.poke:hover {
+    filter: drop-shadow(0.5rem 0 0.5rem rgb(255, 113, 4));
+    transition: 0.15s ease-in-out;
+    cursor: none;
+}
+
+
 .poke {
     width: 175px;
     height: 182px;
