@@ -1,1 +1,0 @@
-When using your image software to create the icons for the consoles in the Roms section, note the settings here to make a similar look for each icon to tie it together.
