@@ -45,7 +45,7 @@ h1 {
     font-size: 25px;
     border: solid 2px;
     border-radius: 35px;
-    padding: 5px;
+    padding: 1rem 2rem 1rem 2rem;
     max-width: 50%;
     translate: 50%;
     background-color: white;
@@ -72,6 +72,14 @@ h1 {
     cursor: none;
 }
 
+#characterDisplay:hover {
+    cursor: none;
+}
+
+#characterDisplay {
+    width: auto;
+    height: auto;
+}
 
 .poke {
     width: 175px;
@@ -80,17 +88,16 @@ h1 {
     padding-top: 5px;
 }
 
-.websiteInfo {
+#websiteInfo {
     border-left: ridge 2px;
     border-left-color: #005EFF;
     padding: 13px;
     border-right: ridge 2px;
     border-right-color: #005EFF;
     margin: 12px;
-    text-align: left;
     font-size: 120%;
     background-color:white;
-    box-shadow: 0 0 12px white;
+    box-shadow: 0 0 1rem white;
 }
 
 #rom_button {

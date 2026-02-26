@@ -12,30 +12,30 @@
 		
 		}
 		
-		html, body {
-			display: flex;
-			flex-direction: column;
-		}
 
 		html { 
 			background: white;
 			margin: 0;
-			height: 100%;
 		}
 
 		body { 
 			font-family: "Determination"; 
 			color: #005eff;
-			padding: 0.03in;
-			margin: 0.03in;
+			padding: 0;
+			margin: 0;
+			height: 100vh;
 			text-align: center;
-			min-height: 100%;
-
+			background: #c2d7ee;
+			display: flex;
+			flex-direction: column;
 		}
 
-		#headerLayout {
+		header {
 			margin: 0;
 			padding: 0;
+			background: white;
+			border-bottom: groove 0.2rem;
+			border-color: white;
 		}
 
 		h1 { 
@@ -44,9 +44,10 @@
 		}
 		
 		.headerLinks {
-			padding: 0 0.08in;
+			padding: 0 0.04in;
 			margin: 0;
-			font-size: 95%;
+			font-size: 0.8rem;
+			display: inline-flexbox;
 		}
 
 		.headerLinks:link, .headerLinks:visited, .headerLinks:active {
@@ -54,82 +55,77 @@
 		}
 
 		.headerLinks:hover {
-			color: blue;
+			color: navy;
 			transition: 0.3s ease-in-out;
 		}
 
-
+		footer {
+			background: white;
+			margin-top: auto;
+			padding: 0.;
+			border-top: groove 0.2rem;
+			border-color: white;
+		}
 	</style>
 </head>
-<body lang="en-US" bgcolor=#c2d7ee dir="ltr" id="headerLayout">
-	<div style="margin: 0in; background: white; border-bottom: inset vmin; box-shadow: 0 2px 4px;">
+<body lang="en-US"dir="ltr">
+	<header>
 		<span style="display: inline-block; padding: 0 0 0.1in 0;">
-			<h1 style="font-size: 300%; text-decoration-line: underline; padding-bottom: 1vmin;">
+			<h1 style="font-size: 300%; text-decoration-line: underline;">
 				A2R
 			</h1>
-
+		
 			<a class="headerLinks" href="homepage.html">
 				Homepage
 			</a>
-
 			<a class="headerLinks" href="index.html">
 				TEMPORARY Homepage
 			</a>
-
 			<a class="headerLinks" href="consoleRoms.html">
 				Roms
 			</a>
-
 			<a class="headerLinks" href="download-page.html">
 				Download Page (Temporary)
 			</a>
 		</span>
-	</div>
+</header>
+<main>
 	<p style="color: black;
-	font-size: 160%;">
-		Welcome to Access2Roms. 
-		Down below, you can Access
-		<br/>
-		and download ROMs for
-		<span style="font-style: italic; 
-		font-weight: bold;
-		text-decoration: underline;">
-			FREE
-		</span>
+	font-size: 160%;
+	">
+	Welcome to Access2Roms. 
+	Down below, you can Access
+	<br/>
+	and download ROMs for
+	<span style="font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;">
+	FREE
+	</span>
 	</p>
-	
-	<br>
-	<br>
-
-	<p style="border-left: 2px ridge;
-	padding: 13px; 
-	border-right: 2px ridge; 
-	border-color: #005EFF; 
-	margin: 12px;
+	<p style="border-left: 0.15rem ridge;
+	border-right: 0.15rem ridge;
+	border-color: #005EFF;
+	padding: 1.75rem 10rem 1.75rem 10rem;
+	margin: 2rem;
     text-align: center;
     font-size: 1.35rem;
     background-color:white;
     box-shadow: 0 0 12px white;">
 		Hello there, and welcome to Access2Roms.
-		<br>
-		A place for roms of your every desire!
-		<br>
-		There's no limit to how many games you can download.
-		<br>
-		Discover a list of games from a range of consoles. 
-		<br>
-		Make yourself at home, and most importantly,
-		<br>
-		HAVE FUN!
+		 A place for roms of your every desire!
+		 There's no limit to how many games you can download.
+		  Discover a list of games from a range of consoles.
+		   Make yourself at home, and most importantly,
+		   <br>
+		   HAVE FUN!
 	</p>
-</body>
-<footer style="background:white;
-margin-top: auto;
-padding: auto;
-box-shadow: 0 -0.15rem 0.65rem white;">
+</main>
+<footer>
 	<p style="color: darkgrey;
-	font-size: 80%;">
+	font-size: 0.8rem;">
 		Access2Roms
 	</p>
 </footer>
+</body>
 </html>
