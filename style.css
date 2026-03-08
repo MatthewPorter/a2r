@@ -61,19 +61,16 @@ h1 {
 }
 
 .mm1:hover {
-    filter: drop-shadow(-0.5rem 0 0.5rem rgb(44, 86, 255));
-    transition: 0.15s ease-in-out;
-    cursor: none;
+    filter: drop-shadow(-0.5rem 0 0.5rem rgb(37, 102, 255));
 }
 
 .poke:hover {
     filter: drop-shadow(0.5rem 0 0.5rem rgb(255, 113, 4));
-    transition: 0.15s ease-in-out;
-    cursor: none;
 }
 
-#characterDisplay:hover {
-    cursor: none;
+.mm1:hover, .poke:hover {
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
 }
 
 #characterDisplay {
